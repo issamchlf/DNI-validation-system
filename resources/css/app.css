@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-bg {
+    background: linear-gradient(135deg, #2d3748 0%, #e53e3e 100%);
+}
+
+.button-hover:hover {
+    background-color: #e53e3e;
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out, background-color 0.3s ease;
+}
+
+.input-focus:focus {
+    border-color: #e53e3e;
+    outline: none;
+    box-shadow: 0 0 5px rgba(229, 62, 62, 0.6);
+}
+
+.card-shadow {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.bg-dark-gray {
+    background-color: #2d3748;
+}
+
+.text-muted {
+    color: #a0aec0;
+}
+
+
+.btn-dark {
+    background-color: #4a5568;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-dark:hover {
+    background-color: #2b3e50;
+}
+
+.text-dark-red {
+    color: #e53e3e;
+}
+
+.bg-dark-red {
+    background-color: #e53e3e;
+}
+
+.bg-light-red {
+    background-color: #f56565;
+}
+
+.hover-bg-dark-red:hover {
+    background-color: #c53030;
+}
