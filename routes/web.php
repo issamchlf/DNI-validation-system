@@ -3,6 +3,6 @@
 use Illuminate\Support\Facades\Route;
 
 
-Route::get('/dni-calculator', function () {
+Route::get('/', function () {
     return view('dni_calculator');
 });
