@@ -105,6 +105,9 @@ Follow these steps to get the DNI Validation System up and running:
    {
    "error": "Número inválido. Debe estar entre 0 y 99999999."
    }
+### Postman Test API
+![Captura de pantalla 2025-01-07 112659](https://github.com/user-attachments/assets/2f06d015-827c-4dfc-b471-b52d8b2d12a0)
+
 
 ## Authors
 
